@@ -4,7 +4,7 @@ userAnswer=document.querySelector("quiz").value
 const answerCheckbox = document.getElementById("choice1");
 
 
-if(value===correctAnswer){
+if(userAnswer===correctAnswer){
 userAnswer.textContent="Correct! Well done."
 answerCheckbox.checked = true;
 }
