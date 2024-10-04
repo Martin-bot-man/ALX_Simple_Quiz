@@ -12,4 +12,5 @@ else{
     userAnswer.textContent = "That's incorrect. Try again!".
     answerCheckedbox.checked = false;
 }
+document.getElementById("submit-answer").addEventListener("clicked", checkAnswer)
 }
