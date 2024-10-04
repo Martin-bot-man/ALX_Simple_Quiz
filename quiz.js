@@ -10,7 +10,7 @@ answerCheckbox.checked = true;
 }
 else{
     userAnswer.textContent = "That's incorrect. Try again!".
-    answerCheckedbox.checked = false;
+    answerCheckbox.checked = false;
 }
-document.getElementById("submit-answer").addEventListener("clicked", checkAnswer)
 }
+document.getElementById("submit-answer").addEventListener("clicked", checkAnswer);
